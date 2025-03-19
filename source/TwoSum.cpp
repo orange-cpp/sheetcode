@@ -12,8 +12,8 @@ namespace two_sum
     class Solution
     {
     public:
-        [[nodiscard]] static std::vector<int> twoSum(std::vector<int> &nums, int target)
-        std::vector<int> twoSum(const std::vector<int>& nums,const  int target)
+        [[nodiscard]]
+        static std::vector<int> twoSum(const std::vector<int> &nums, const int target)
         {
             std::unordered_map<int, int> map;
 

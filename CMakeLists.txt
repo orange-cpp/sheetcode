@@ -9,6 +9,7 @@ include(GoogleTest)
 add_executable(solutions
         source/MergeIntervals.cpp
         source/TwoSum.cpp
+        source/GroupAnagrams.cpp
 )
 
 set_target_properties(solutions PROPERTIES

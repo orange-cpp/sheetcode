@@ -6,7 +6,10 @@ project(solutions)
 add_subdirectory(extlibs/googletest)
 
 include(GoogleTest)
-add_executable(solutions source/MergeIntervals.cpp)
+add_executable(solutions
+        source/MergeIntervals.cpp
+        source/TwoSum.cpp
+)
 
 set_target_properties(solutions PROPERTIES
         ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/out/${CMAKE_BUILD_TYPE}"

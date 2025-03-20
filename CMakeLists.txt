@@ -10,6 +10,8 @@ add_executable(solutions
         source/MergeIntervals.cpp
         source/TwoSum.cpp
         source/GroupAnagrams.cpp
+        source/TopKFrequentElements.cpp
+        source/SearchA2dMatrix.cpp
 )
 
 set_target_properties(solutions PROPERTIES

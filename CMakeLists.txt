@@ -12,6 +12,7 @@ add_executable(solutions
         source/GroupAnagrams.cpp
         source/TopKFrequentElements.cpp
         source/SearchA2dMatrix.cpp
+        source/CanPlaceFlowers.cpp
 )
 
 set_target_properties(solutions PROPERTIES
